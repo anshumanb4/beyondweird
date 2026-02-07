@@ -87,7 +87,7 @@ function Home() {
       <section className="hero">
         <div className="container">
           <div className="hero__content">
-            <span className="hero__badge">Virtual Conference</span>
+            <span className="hero__badge">Online Conference</span>
             <h1 className="hero__title">Beyond WEIRD</h1>
             <p className="hero__subtitle">
               A one-day gathering exploring what it means to build AI systems that reason differently—through Indigenous logics, not Western defaults.
