@@ -9,6 +9,7 @@
   --color-accent-light: #D4A574;
   --color-border: #E5E2DC;
   --color-forest: #3D5A47;
+  --color-teal: #1A6374;
 
   /* Typography */
   --font-serif: 'Fraunces', Georgia, serif;
@@ -21,6 +22,93 @@
 
 *, *::before, *::after {
   box-sizing: border-box;
+}
+
+/* Decorative rings */
+.deco-rings {
+  position: absolute;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.deco-rings svg {
+  display: block;
+}
+
+.deco-rings--hero-right {
+  width: 560px;
+  height: 560px;
+  top: -120px;
+  right: -180px;
+}
+
+.deco-rings--hero-left {
+  width: 320px;
+  height: 320px;
+  bottom: -80px;
+  left: -120px;
+}
+
+.deco-rings--section-right {
+  width: 380px;
+  height: 380px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -160px;
+}
+
+.deco-rings--section-left {
+  width: 280px;
+  height: 280px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -100px;
+}
+
+/* Custom cursor */
+* {
+  cursor: none !important;
+}
+
+.cursor-root {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.cursor-dot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  will-change: transform;
+}
+
+/* Three concentric rings */
+.cursor-dot::before {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  border: 2.5px solid var(--color-accent);
+  transform: translate(-50%, -50%);
+  transition: border-color 0.2s ease;
+}
+
+/* Ring sizes: inner, middle, outer */
+.cursor-dot:nth-child(1)::before,
+.cursor-dot:nth-child(2)::before { width: 8px;  height: 8px; }
+
+.cursor-dot:nth-child(3)::before,
+.cursor-dot:nth-child(4)::before { width: 18px; height: 18px; }
+
+.cursor-dot:nth-child(5)::before,
+.cursor-dot:nth-child(6)::before { width: 32px; height: 32px; }
+
+/* Button hover color */
+.cursor--hover .cursor-dot::before {
+  border-color: var(--color-bg);
 }
 
 html {
@@ -122,6 +210,8 @@ img {
   align-items: center;
   padding: 8rem 0 6rem;
   background: linear-gradient(180deg, var(--color-bg) 0%, var(--color-bg-alt) 100%);
+  position: relative;
+  overflow: hidden;
 }
 
 .hero__content {
@@ -328,10 +418,64 @@ img {
   color: var(--color-accent);
 }
 
+/* Sponsors section */
+.sponsors__heading {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.sponsors__grid {
+  display: flex;
+  justify-content: center;
+}
+
+.sponsor-card {
+  background: white;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 2.5rem 3rem;
+  max-width: 36rem;
+  text-align: center;
+}
+
+.sponsor-card__logo {
+  display: inline-block;
+  margin-bottom: 1.25rem;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.sponsor-card__logo:hover {
+  opacity: 0.75;
+}
+
+.sponsor-card__img {
+  height: 4rem;
+  width: auto;
+  display: block;
+}
+
+.sponsor-card__stat {
+  font-family: var(--font-serif);
+  font-size: 1.125rem;
+  color: var(--color-forest);
+  margin-bottom: 0.75rem;
+}
+
+.sponsor-card__description {
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  margin: 0;
+}
+
 /* RSVP section */
 .rsvp {
   text-align: center;
   background: linear-gradient(180deg, var(--color-bg-alt) 0%, var(--color-bg) 100%);
+  position: relative;
+  overflow: hidden;
 }
 
 .rsvp__heading {
@@ -343,6 +487,12 @@ img {
   color: var(--color-text-muted);
   max-width: 32rem;
   margin: 0 auto 2rem;
+}
+
+.rsvp__form {
+  max-width: 36rem;
+  margin: 0 auto;
+  display: block;
 }
 
 .rsvp__note {
@@ -424,6 +574,8 @@ img {
 .about-hero {
   padding: 8rem 0 4rem;
   background: linear-gradient(180deg, var(--color-bg) 0%, var(--color-bg-alt) 100%);
+  position: relative;
+  overflow: hidden;
 }
 
 .about-hero__title {
@@ -535,6 +687,64 @@ img {
 }
 
 .mission__content {
+  color: var(--color-text-muted);
+}
+
+/* Reading List */
+.reading-list {
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.reading-section {
+  margin-bottom: 3.5rem;
+}
+
+.reading-section__title {
+  font-size: clamp(1.25rem, 2.5vw, 1.625rem);
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.reading-section__intro {
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.reading-entries {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.reading-entry__citation {
+  font-size: 0.9375rem;
+  color: var(--color-text);
+  margin: 0 0 0.35rem;
+  line-height: 1.6;
+}
+
+.reading-entry__annotation {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin: 0;
+  padding-left: 1rem;
+  border-left: 2px solid var(--color-border);
+  line-height: 1.65;
+}
+
+.reading-list__footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-border);
+  font-size: 0.875rem;
   color: var(--color-text-muted);
 }
 
