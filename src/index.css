@@ -501,6 +501,40 @@ img {
   margin-top: 1.5rem;
 }
 
+/* Big Registration CTA */
+.register-cta {
+  text-align: center;
+  padding: 6rem 0;
+  background-color: var(--color-accent);
+  position: relative;
+  overflow: hidden;
+}
+
+.register-cta__heading {
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.register-cta__text {
+  color: rgba(255, 255, 255, 0.85);
+  max-width: 34rem;
+  margin: 0 auto 2.5rem;
+  font-size: 1.125rem;
+}
+
+.register-cta__btn {
+  background-color: white;
+  color: var(--color-accent);
+  font-size: 1.125rem;
+  padding: 1.25rem 3rem;
+}
+
+.register-cta__btn:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: var(--color-accent);
+}
+
 /* Footer */
 .footer {
   padding: 3rem 0;

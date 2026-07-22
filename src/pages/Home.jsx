@@ -4,16 +4,12 @@ import DecoCircles from '../DecoCircles';
 function Home() {
   const formatCards = [
     {
-      title: "4 Sessions",
-      text: "60-75 minutes each, designed to allow ideas to unfold naturally"
+      title: "3 Panels + Keynote",
+      text: "Three interdisciplinary panels and a keynote, 60-75 minutes each, designed to allow ideas to unfold naturally"
     },
     {
       title: "Interdisciplinary Panels",
       text: "Each session brings together an AI scientist, Indigenous researcher, and philosopher"
-    },
-    {
-      title: "Productive Tensions",
-      text: "Structured to surface disagreements and unexpected connections"
     },
     {
       title: "Intimate Audience",
@@ -167,6 +163,20 @@ function Home() {
             title="Beyond WEIRD Registration"
             className="rsvp__form"
           />
+        </div>
+      </section>
+
+      {/* Big Registration CTA */}
+      <section className="register-cta" id="register-cta">
+        <DecoCircles className="deco-rings--section-right" />
+        <div className="container">
+          <h2 className="register-cta__heading">Reserve Your Seat</h2>
+          <p className="register-cta__text">
+            Registration is free and space is limited. Join us on September 17, 2026.
+          </p>
+          <a href={rsvpUrl} className="btn btn--primary register-cta__btn" target="_blank" rel="noopener noreferrer">
+            Register Now
+          </a>
         </div>
       </section>
 
