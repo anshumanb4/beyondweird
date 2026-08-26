@@ -17,6 +17,44 @@ function Home() {
     }
   ];
 
+  const scheduleItems = [
+    { type: 'session', time: '10:30 – 10:40am PT', title: 'Opening' },
+    { type: 'session', time: '10:40 – 11:40am PT', title: 'Panel 1 — What Counts as Knowing', desc: 'Indigenous epistemologies on their own terms' },
+    { type: 'break', time: '11:40am – 12:00pm PT', title: 'Break' },
+    { type: 'session', time: '12:00 – 1:00pm PT', title: 'Panel 2 — What AI Assumes and What It Cannot See', desc: 'Featuring Nava Haghighi (Stanford)' },
+    { type: 'break', time: '1:00 – 1:10pm PT', title: 'Break' },
+    { type: 'session', time: '1:10 – 2:10pm PT', title: 'Panel 3 — Sovereignty, Consent, and the Ethics of Representation', desc: 'Featuring Maui Hudson (University of Waikato)' },
+    { type: 'session', time: '2:10 – 2:25pm PT', title: 'Keynote — Toward Abundance', desc: 'Jason Edward Lewis (Concordia University)' },
+    { type: 'session', time: '2:25 – 2:45pm PT', title: 'Closing Synthesis' },
+  ];
+
+  const speakers = [
+    {
+      initials: 'MH',
+      name: 'Maui Hudson',
+      role: 'Panel 3 — Sovereignty, Consent, and the Ethics of Representation',
+      affiliation: 'University of Waikato · Global Indigenous Data Alliance',
+      bio: 'Maui Hudson (Whakatōhea, Ngā Ruahine, Te Māhurehure) is an Associate Professor at the University of Waikato and Director of the Te Kotahi Research Institute. He co-authored the CARE Principles for Indigenous Data Governance and co-directs Local Contexts, working on how Indigenous data sovereignty can guide the ethical use of AI.',
+      linkedin: 'https://www.linkedin.com/in/mauihudson/',
+    },
+    {
+      initials: 'NH',
+      name: 'Nava Haghighi',
+      role: 'Panel 2 — What AI Assumes and What It Cannot See',
+      affiliation: 'Stanford University',
+      bio: 'Nava Haghighi is a doctoral candidate in Computer Science at Stanford, working at the intersection of human-computer interaction and critical technical design. Her research examines the ontological assumptions built into large language models and how design can surface and expand them.',
+      linkedin: 'https://www.linkedin.com/in/nava-haghighi/',
+    },
+    {
+      initials: 'JL',
+      name: 'Jason Edward Lewis',
+      role: 'Keynote — Toward Abundance',
+      affiliation: 'Concordia University · Abundant Intelligences',
+      bio: 'Jason Edward Lewis is Professor of Computation Arts and University Research Chair in Computational Media and the Indigenous Future Imaginary at Concordia University. He co-directs Abundant Intelligences and the Indigenous Futures Research Centre, and edited the widely cited Indigenous Protocol and Artificial Intelligence position paper.',
+      linkedin: 'https://ca.linkedin.com/in/jason-edward-lewis',
+    },
+  ];
+
   // Replace this with your actual Google Form URL
   const rsvpUrl = "https://tally.so/r/w84BDk";
 
@@ -52,7 +90,7 @@ function Home() {
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
                 </svg>
-                <span>September 17, 2026</span>
+                <span>September 16, 2026</span>
               </div>
               <div className="hero__meta-item">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
@@ -126,6 +164,66 @@ function Home() {
         </div>
       </section>
 
+      {/* Schedule Section */}
+      <section className="section section--alt" id="schedule">
+        <div className="container">
+          <h2 className="schedule__heading">Schedule</h2>
+          <p className="schedule__intro">
+            September 16, 2026 · 10:30am – 2:45pm Pacific Time
+          </p>
+          <div className="schedule__list">
+            {scheduleItems.map((item, index) => (
+              <div
+                className={item.type === 'break' ? 'schedule__item schedule__item--break' : 'schedule__item'}
+                key={index}
+              >
+                <div className="schedule__time">{item.time}</div>
+                <div className="schedule__content">
+                  <p className="schedule__title">{item.title}</p>
+                  {item.desc && <p className="schedule__desc">{item.desc}</p>}
+                </div>
+              </div>
+            ))}
+          </div>
+          <p className="schedule__note">
+            Times listed in Pacific. A calendar invite with your local time zone will be sent after registration.
+          </p>
+        </div>
+      </section>
+
+      {/* Speakers Section */}
+      <section className="section" id="speakers">
+        <div className="container">
+          <h2 className="speakers__heading">Speakers</h2>
+          <p className="speakers__subtitle">
+            Confirmed so far, with more to be announced
+          </p>
+          <div className="speakers__grid">
+            {speakers.map((speaker, index) => (
+              <div className="speaker" key={index}>
+                <div className="speaker__top">
+                  <div className="speaker__avatar">{speaker.initials}</div>
+                  <div className="speaker__info">
+                    <p className="speaker__name">{speaker.name}</p>
+                    <p className="speaker__role">{speaker.role}</p>
+                    <p className="speaker__affiliation">{speaker.affiliation}</p>
+                  </div>
+                </div>
+                <p className="speaker__bio">{speaker.bio}</p>
+                <a
+                  href={speaker.linkedin}
+                  className="speaker__linkedin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View LinkedIn ↗
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Sponsors Section */}
       <section className="section section--alt" id="sponsors">
         <div className="container">
@@ -172,7 +270,7 @@ function Home() {
         <div className="container">
           <h2 className="register-cta__heading">Reserve Your Seat</h2>
           <p className="register-cta__text">
-            Registration is free and space is limited. Join us on September 17, 2026.
+            Registration is free and space is limited. Join us on September 16, 2026.
           </p>
           <a href={rsvpUrl} className="btn btn--primary register-cta__btn" target="_blank" rel="noopener noreferrer">
             Register Now

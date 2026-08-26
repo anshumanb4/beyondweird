@@ -110,7 +110,7 @@ function About() {
         <div className="container">
           <h2 className="rsvp__heading">Join the conversation</h2>
           <p className="rsvp__text">
-            Be part of the inaugural Beyond WEIRD conference on September 17, 2026.
+            Be part of the inaugural Beyond WEIRD conference on September 16, 2026.
           </p>
           <Link to="/" className="btn btn--outline" style={{ marginRight: '1rem' }}>
             Back to Conference
