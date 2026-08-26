@@ -49,7 +49,7 @@ function About() {
                   "The problem is not that these models are biased. It is that we are not taking advantage of how much we could bias them on purpose."
                 </p>
                 <p style={{ fontStyle: 'normal', fontSize: '0.875rem', marginTop: '0.75rem', color: 'var(--color-text-muted)' }}>
-                  — <em>Designing Toward Epistemic Pluralism</em>
+                  <em>Designing Toward Epistemic Pluralism</em>
                 </p>
               </div>
             </div>
@@ -77,7 +77,7 @@ function About() {
                   "It appals us that the West can desire, extract and claim ownership of our ways of knowing, our imagery, the things we create and produce, and then simultaneously reject the people who created and developed those ideas."
                 </p>
                 <p style={{ fontStyle: 'normal', fontSize: '0.875rem', marginTop: '0.75rem', color: 'var(--color-text-muted)' }}>
-                  — Linda Tuhiwai Smith, <em>Decolonizing Methodologies</em>
+                  Linda Tuhiwai Smith, <em>Decolonizing Methodologies</em>
                 </p>
               </div>
             </div>

@@ -19,12 +19,12 @@ function Home() {
 
   const scheduleItems = [
     { type: 'session', time: '10:30 – 10:40am PT', title: 'Opening' },
-    { type: 'session', time: '10:40 – 11:40am PT', title: 'Panel 1 — What Counts as Knowing', desc: 'Indigenous epistemologies on their own terms' },
+    { type: 'session', time: '10:40 – 11:40am PT', title: 'Panel 1: What Counts as Knowing', desc: 'Indigenous epistemologies on their own terms' },
     { type: 'break', time: '11:40am – 12:00pm PT', title: 'Break' },
-    { type: 'session', time: '12:00 – 1:00pm PT', title: 'Panel 2 — What AI Assumes and What It Cannot See', desc: 'Featuring Nava Haghighi (Stanford)' },
+    { type: 'session', time: '12:00 – 1:00pm PT', title: 'Panel 2: What AI Assumes and What It Cannot See', desc: 'Featuring Nava Haghighi (Stanford)' },
     { type: 'break', time: '1:00 – 1:10pm PT', title: 'Break' },
-    { type: 'session', time: '1:10 – 2:10pm PT', title: 'Panel 3 — Sovereignty, Consent, and the Ethics of Representation', desc: 'Featuring Maui Hudson (University of Waikato)' },
-    { type: 'session', time: '2:10 – 2:25pm PT', title: 'Keynote — Toward Abundance', desc: 'Jason Edward Lewis (Concordia University)' },
+    { type: 'session', time: '1:10 – 2:10pm PT', title: 'Panel 3: Sovereignty, Consent, and the Ethics of Representation', desc: 'Featuring Maui Hudson (University of Waikato)' },
+    { type: 'session', time: '2:10 – 2:25pm PT', title: 'Keynote: Toward Abundance', desc: 'Jason Edward Lewis (Concordia University)' },
     { type: 'session', time: '2:25 – 2:45pm PT', title: 'Closing Synthesis' },
   ];
 
@@ -32,7 +32,7 @@ function Home() {
     {
       initials: 'MH',
       name: 'Maui Hudson',
-      role: 'Panel 3 — Sovereignty, Consent, and the Ethics of Representation',
+      role: 'Panel 3: Sovereignty, Consent, and the Ethics of Representation',
       affiliation: 'University of Waikato · Global Indigenous Data Alliance',
       bio: 'Maui Hudson (Whakatōhea, Ngā Ruahine, Te Māhurehure) is an Associate Professor at the University of Waikato and Director of the Te Kotahi Research Institute. He co-authored the CARE Principles for Indigenous Data Governance and co-directs Local Contexts, working on how Indigenous data sovereignty can guide the ethical use of AI.',
       linkedin: 'https://www.linkedin.com/in/mauihudson/',
@@ -40,7 +40,7 @@ function Home() {
     {
       initials: 'NH',
       name: 'Nava Haghighi',
-      role: 'Panel 2 — What AI Assumes and What It Cannot See',
+      role: 'Panel 2: What AI Assumes and What It Cannot See',
       affiliation: 'Stanford University',
       bio: 'Nava Haghighi is a doctoral candidate in Computer Science at Stanford, working at the intersection of human-computer interaction and critical technical design. Her research examines the ontological assumptions built into large language models and how design can surface and expand them.',
       linkedin: 'https://www.linkedin.com/in/nava-haghighi/',
@@ -48,7 +48,7 @@ function Home() {
     {
       initials: 'JL',
       name: 'Jason Edward Lewis',
-      role: 'Keynote — Toward Abundance',
+      role: 'Keynote: Toward Abundance',
       affiliation: 'Concordia University · Abundant Intelligences',
       bio: 'Jason Edward Lewis is Professor of Computation Arts and University Research Chair in Computational Media and the Indigenous Future Imaginary at Concordia University. He co-directs Abundant Intelligences and the Indigenous Futures Research Centre, and edited the widely cited Indigenous Protocol and Artificial Intelligence position paper.',
       linkedin: 'https://ca.linkedin.com/in/jason-edward-lewis',
@@ -137,7 +137,7 @@ function Home() {
                   "It appals us that the West can desire, extract and claim ownership of our ways of knowing, our imagery, the things we create and produce, and then simultaneously reject the people who created and developed those ideas."
                 </p>
                 <p style={{ fontStyle: 'normal', fontSize: '0.875rem', marginTop: '0.75rem', color: 'var(--color-text-muted)' }}>
-                  — Linda Tuhiwai Smith, <em>Decolonizing Methodologies</em>
+                  Linda Tuhiwai Smith, <em>Decolonizing Methodologies</em>
                 </p>
               </div>
             </div>

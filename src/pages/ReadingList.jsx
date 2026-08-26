@@ -162,7 +162,7 @@ function ReadingList() {
             ))}
 
             <p className="reading-list__footer">
-              This list is a living document and will be updated as the project evolves. Suggestions are welcome — reach out at <a href="mailto:nevabpna@gmail.com">nevabpna@gmail.com</a>.
+              This list is a living document and will be updated as the project evolves. Suggestions are welcome, reach out at <a href="mailto:nevabpna@gmail.com">nevabpna@gmail.com</a>.
             </p>
           </div>
         </div>
