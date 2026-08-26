@@ -403,6 +403,17 @@ img {
   color: white;
   font-family: var(--font-serif);
   font-size: 1.125rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.speaker__avatar-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .speaker__info {

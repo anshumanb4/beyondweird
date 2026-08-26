@@ -31,6 +31,7 @@ function Home() {
   const speakers = [
     {
       initials: 'MH',
+      image: '/speakers/maui-hudson.jpg',
       name: 'Maui Hudson',
       role: 'Panel 3: Sovereignty, Consent, and the Ethics of Representation',
       affiliation: 'University of Waikato · Global Indigenous Data Alliance',
@@ -39,6 +40,7 @@ function Home() {
     },
     {
       initials: 'NH',
+      image: '/speakers/nava-haghighi.jpg',
       name: 'Nava Haghighi',
       role: 'Panel 2: What AI Assumes and What It Cannot See',
       affiliation: 'Stanford University',
@@ -47,6 +49,7 @@ function Home() {
     },
     {
       initials: 'JL',
+      image: '/speakers/jason-edward-lewis.jpg',
       name: 'Jason Edward Lewis',
       role: 'Keynote: Toward Abundance',
       affiliation: 'Concordia University · Abundant Intelligences',
@@ -202,7 +205,17 @@ function Home() {
             {speakers.map((speaker, index) => (
               <div className="speaker" key={index}>
                 <div className="speaker__top">
-                  <div className="speaker__avatar">{speaker.initials}</div>
+                  <div className="speaker__avatar">
+                    {speaker.initials}
+                    {speaker.image && (
+                      <img
+                        src={speaker.image}
+                        alt={speaker.name}
+                        className="speaker__avatar-img"
+                        onError={(e) => e.currentTarget.remove()}
+                      />
+                    )}
+                  </div>
                   <div className="speaker__info">
                     <p className="speaker__name">{speaker.name}</p>
                     <p className="speaker__role">{speaker.role}</p>
@@ -227,7 +240,7 @@ function Home() {
       {/* Sponsors Section */}
       <section className="section section--alt" id="sponsors">
         <div className="container">
-          <h2 className="sponsors__heading">Confirmed Sponsors</h2>
+          <h2 className="sponsors__heading">Sponsor</h2>
           <div className="sponsors__grid">
             <div className="sponsor-card">
               <a href="https://terra.do" target="_blank" rel="noopener noreferrer" className="sponsor-card__logo">
