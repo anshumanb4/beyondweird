@@ -11,7 +11,7 @@ function About() {
           <div className="nav__links">
             <Link to="/about">Mission</Link>
             <Link to="/reading-list">Reading List</Link>
-            <a href="https://tally.so/r/w84BDk" className="btn btn--primary btn--small" target="_blank" rel="noopener noreferrer">
+            <a href="https://luma.com/1blyy2mm" className="btn btn--primary btn--small" target="_blank" rel="noopener noreferrer">
               Register
             </a>
           </div>
@@ -115,7 +115,7 @@ function About() {
           <Link to="/" className="btn btn--outline" style={{ marginRight: '1rem' }}>
             Back to Conference
           </Link>
-          <a href="https://tally.so/r/w84BDk" className="btn btn--primary" target="_blank" rel="noopener noreferrer">
+          <a href="https://luma.com/1blyy2mm" className="btn btn--primary" target="_blank" rel="noopener noreferrer">
             Register Now
           </a>
         </div>

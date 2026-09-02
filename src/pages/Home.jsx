@@ -58,8 +58,7 @@ function Home() {
     },
   ];
 
-  // Replace this with your actual Google Form URL
-  const rsvpUrl = "https://tally.so/r/w84BDk";
+  const rsvpUrl = "https://luma.com/1blyy2mm";
 
   return (
     <>
@@ -264,13 +263,15 @@ function Home() {
             We're convening a small, engaged audience of researchers, practitioners, and thinkers working at this intersection. Registration is free. Space is limited.
           </p>
           <iframe
-            data-tally-src="https://tally.so/embed/w84BDk?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+            src="https://luma.com/embed/event/evt-4DJCKb7bMgAHHtr/simple"
             loading="lazy"
             width="100%"
-            height="284"
+            height="450"
             frameBorder="0"
-            marginHeight="0"
-            marginWidth="0"
+            style={{ border: '1px solid var(--color-border)', borderRadius: '8px' }}
+            allowFullScreen
+            aria-hidden="false"
+            tabIndex="0"
             title="Beyond WEIRD Registration"
             className="rsvp__form"
           />
