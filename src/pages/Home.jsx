@@ -19,9 +19,9 @@ function Home() {
 
   const scheduleItems = [
     { type: 'session', time: '10:30 – 10:40am PT', title: 'Opening' },
-    { type: 'session', time: '10:40 – 11:40am PT', title: 'Panel 1: What Counts as Knowing', desc: 'Indigenous epistemologies on their own terms' },
+    { type: 'session', time: '10:40 – 11:40am PT', title: 'Panel 1: What Counts as Knowing', desc: 'Featuring Mack Scott III (Brown University)' },
     { type: 'break', time: '11:40am – 12:00pm PT', title: 'Break' },
-    { type: 'session', time: '12:00 – 1:00pm PT', title: 'Panel 2: What AI Assumes and What It Cannot See', desc: 'Featuring Nava Haghighi (Stanford)' },
+    { type: 'session', time: '12:00 – 1:00pm PT', title: 'Panel 2: What AI Assumes and What It Cannot See', desc: 'Featuring Nava Haghighi and Deibi Sibrian' },
     { type: 'break', time: '1:00 – 1:10pm PT', title: 'Break' },
     { type: 'session', time: '1:10 – 2:10pm PT', title: 'Panel 3: Sovereignty, Consent, and the Ethics of Representation', desc: 'Featuring Maui Hudson and Belén Páez' },
     { type: 'session', time: '2:10 – 2:25pm PT', title: 'Keynote: Toward Abundance', desc: 'Jason Edward Lewis (Concordia University)' },
@@ -30,12 +30,29 @@ function Home() {
 
   const speakers = [
     {
-      initials: 'BP',
-      image: '/speakers/belen-paez.jpg',
-      name: 'Belén Páez',
-      role: 'Panel 3: Sovereignty, Consent, and the Ethics of Representation',
-      affiliation: 'Fundación Pachamama · Amazon Sacred Headwaters Initiative',
-      bio: 'Belén Páez is president of Fundación Pachamama and general secretary of the Amazon Sacred Headwaters Initiative, with nearly 30 years of work protecting Indigenous territories and rights in the Ecuadorian Amazon.',
+      initials: 'MS',
+      image: '/speakers/mack-scott.jpg',
+      name: 'Mack Scott III',
+      role: 'Panel 1: What Counts as Knowing',
+      affiliation: 'Brown University',
+      bio: 'Mack Scott III is a Narragansett historian at Brown University.',
+    },
+    {
+      initials: 'NH',
+      image: '/speakers/nava-haghighi.jpg',
+      name: 'Nava Haghighi',
+      role: 'Panel 2: What AI Assumes and What It Cannot See',
+      affiliation: 'Stanford University',
+      bio: 'Nava Haghighi is a doctoral candidate in Computer Science at Stanford, working at the intersection of human-computer interaction and critical technical design. Her research examines the ontological assumptions built into large language models and how design can surface and expand them.',
+      linkedin: 'https://www.linkedin.com/in/nava-haghighi/',
+    },
+    {
+      initials: 'DS',
+      image: '/speakers/deibi-sibrian.jpg',
+      name: 'Deibi Sibrian',
+      role: 'Panel 2: What AI Assumes and What It Cannot See',
+      affiliation: 'UC Berkeley',
+      bio: 'Deibi Sibrian is a PhD candidate in the Department of Environmental Science, Policy, and Management (ESPM) at UC Berkeley.',
     },
     {
       initials: 'MH',
@@ -47,13 +64,12 @@ function Home() {
       linkedin: 'https://www.linkedin.com/in/mauihudson/',
     },
     {
-      initials: 'NH',
-      image: '/speakers/nava-haghighi.jpg',
-      name: 'Nava Haghighi',
-      role: 'Panel 2: What AI Assumes and What It Cannot See',
-      affiliation: 'Stanford University',
-      bio: 'Nava Haghighi is a doctoral candidate in Computer Science at Stanford, working at the intersection of human-computer interaction and critical technical design. Her research examines the ontological assumptions built into large language models and how design can surface and expand them.',
-      linkedin: 'https://www.linkedin.com/in/nava-haghighi/',
+      initials: 'BP',
+      image: '/speakers/belen-paez.jpg',
+      name: 'Belén Páez',
+      role: 'Panel 3: Sovereignty, Consent, and the Ethics of Representation',
+      affiliation: 'Fundación Pachamama · Amazon Sacred Headwaters Initiative',
+      bio: 'Belén Páez is president of Fundación Pachamama and general secretary of the Amazon Sacred Headwaters Initiative, with nearly 30 years of work protecting Indigenous territories and rights in the Ecuadorian Amazon.',
     },
     {
       initials: 'JL',
