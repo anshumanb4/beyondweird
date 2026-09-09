@@ -19,11 +19,11 @@ function Home() {
 
   const scheduleItems = [
     { type: 'session', time: '10:30 – 10:40am PT', title: 'Opening' },
-    { type: 'session', time: '10:40 – 11:40am PT', title: 'Panel 1: What Counts as Knowing', desc: 'Featuring Belén Páez (Fundación Pachamama)' },
+    { type: 'session', time: '10:40 – 11:40am PT', title: 'Panel 1: What Counts as Knowing', desc: 'Indigenous epistemologies on their own terms' },
     { type: 'break', time: '11:40am – 12:00pm PT', title: 'Break' },
     { type: 'session', time: '12:00 – 1:00pm PT', title: 'Panel 2: What AI Assumes and What It Cannot See', desc: 'Featuring Nava Haghighi (Stanford)' },
     { type: 'break', time: '1:00 – 1:10pm PT', title: 'Break' },
-    { type: 'session', time: '1:10 – 2:10pm PT', title: 'Panel 3: Sovereignty, Consent, and the Ethics of Representation', desc: 'Featuring Maui Hudson (University of Waikato)' },
+    { type: 'session', time: '1:10 – 2:10pm PT', title: 'Panel 3: Sovereignty, Consent, and the Ethics of Representation', desc: 'Featuring Maui Hudson and Belén Páez' },
     { type: 'session', time: '2:10 – 2:25pm PT', title: 'Keynote: Toward Abundance', desc: 'Jason Edward Lewis (Concordia University)' },
     { type: 'session', time: '2:25 – 2:45pm PT', title: 'Closing Synthesis' },
   ];
@@ -33,7 +33,7 @@ function Home() {
       initials: 'BP',
       image: '/speakers/belen-paez.jpg',
       name: 'Belén Páez',
-      role: 'Panel 1: What Counts as Knowing',
+      role: 'Panel 3: Sovereignty, Consent, and the Ethics of Representation',
       affiliation: 'Fundación Pachamama · Amazon Sacred Headwaters Initiative',
       bio: 'Belén Páez is president of Fundación Pachamama and general secretary of the Amazon Sacred Headwaters Initiative, with nearly 30 years of work protecting Indigenous territories and rights in the Ecuadorian Amazon.',
     },
