@@ -3,18 +3,9 @@ import DecoCircles from '../DecoCircles';
 
 function Home() {
   const formatCards = [
-    {
-      title: "3 Panels + Keynote",
-      text: "Three interdisciplinary panels and a keynote, 60-75 minutes each, designed to allow ideas to unfold naturally"
-    },
-    {
-      title: "Interdisciplinary Panels",
-      text: "Each session brings together an AI scientist, Indigenous researcher, and philosopher"
-    },
-    {
-      title: "Intimate Audience",
-      text: "Capped at ~100 participants to enable meaningful exchange"
-    }
+    { title: "3 Panels + Keynote" },
+    { title: "Interdisciplinary Panels" },
+    { title: "Intimate Audience" }
   ];
 
   const scheduleItems = [
@@ -175,15 +166,11 @@ function Home() {
       <section className="section" id="format">
         <div className="container">
           <h2 className="format__heading">Conference Format</h2>
-          <p className="format__intro">
-            A single day designed for depth over breadth, with structured conversations that allow ideas to surface and collide.
-          </p>
           <div className="format__grid">
             {formatCards.map((card, index) => (
               <div className="format__card" key={index}>
                 <div className="format__card-number">{index + 1}</div>
                 <h3 className="format__card-title">{card.title}</h3>
-                <p className="format__card-text">{card.text}</p>
               </div>
             ))}
           </div>
