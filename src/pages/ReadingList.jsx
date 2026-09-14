@@ -50,6 +50,10 @@ const sections = [
       {
         citation: 'Abdilla, A., Kelleher, M., Shaw, R., & Poirier, B. (2017). \u201CIndigenous Knowledge Systems and Pattern Thinking: An Expanded Analysis of the First Indigenous Robotics Prototype Workshop.\u201D',
         annotation: "Examines how Aboriginal practices of articulating and transmitting cultural knowledge might inform pattern recognition research, an early experiment in bringing Indigenous epistemology into direct contact with AI."
+      },
+      {
+        citation: 'Haghighi, N., Yu, S., Landay, J.A., & Rosner, D. (2025). \u201COntologies in Design: How Imagining a Tree Reveals Possibilities and Assumptions in Large Language Models.\u201D Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems.',
+        annotation: "Uses a deceptively simple prompt, asking an AI to imagine a tree, to surface the ontological assumptions built into large language models. It argues that what these systems allow us to think or talk about is a vital and under-recognized dimension of AI design, and proposes orientations of pluralism, groundedness, liveliness, and enactment."
       }
     ]
   },
