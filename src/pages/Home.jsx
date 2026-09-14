@@ -35,7 +35,7 @@ function Home() {
       name: 'Brett Isaac',
       role: 'Panel 1: What Counts as Knowing',
       affiliation: 'Navajo Power',
-      bio: 'Brett Isaac is a co-founder of Navajo Power, a Native-led company developing clean energy on tribal lands.',
+      bio: 'Brett Isaac’s leadership at Navajo Power reaches well beyond business strategy, making him a genuine champion for Indigenous communities. He helps create pathways for these communities to unlock the potential of their natural resources, thrive through clean energy development, and achieve energy independence. Under his leadership, Navajo Power has emerged as a formidable force in the renewable energy landscape, driving meaningful change and inspiring others to follow.',
     },
     {
       initials: 'NH',
