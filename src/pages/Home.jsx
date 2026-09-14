@@ -19,7 +19,7 @@ function Home() {
 
   const scheduleItems = [
     { type: 'session', time: '10:30 – 10:40am PT', title: 'Opening' },
-    { type: 'session', time: '10:40 – 11:40am PT', title: 'Panel 1: What Counts as Knowing', desc: 'Featuring Mack Scott III (Brown University)' },
+    { type: 'session', time: '10:40 – 11:40am PT', title: 'Panel 1: What Counts as Knowing', desc: 'Featuring Brett Isaac (Navajo Power)' },
     { type: 'break', time: '11:40am – 12:00pm PT', title: 'Break' },
     { type: 'session', time: '12:00 – 1:00pm PT', title: 'Panel 2: What AI Assumes and What It Cannot See', desc: 'Featuring Nava Haghighi and Deibi Sibrian' },
     { type: 'break', time: '1:00 – 1:10pm PT', title: 'Break' },
@@ -30,12 +30,12 @@ function Home() {
 
   const speakers = [
     {
-      initials: 'MS',
-      image: '/speakers/mack-scott.jpg',
-      name: 'Mack Scott III',
+      initials: 'BI',
+      image: '/speakers/brett-isaac.jpg',
+      name: 'Brett Isaac',
       role: 'Panel 1: What Counts as Knowing',
-      affiliation: 'Brown University',
-      bio: 'Mack Scott III is a Narragansett historian at Brown University.',
+      affiliation: 'Navajo Power',
+      bio: 'Brett Isaac is a co-founder of Navajo Power, a Native-led company developing clean energy on tribal lands.',
     },
     {
       initials: 'NH',
