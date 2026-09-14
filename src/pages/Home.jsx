@@ -43,7 +43,7 @@ function Home() {
       name: 'Nava Haghighi',
       role: 'Panel 2: What AI Assumes and What It Cannot See',
       affiliation: 'Stanford University',
-      bio: 'Nava Haghighi is a doctoral candidate in Computer Science at Stanford, working at the intersection of human-computer interaction and critical technical design. Her research examines the ontological assumptions built into large language models and how design can surface and expand them.',
+      bio: 'Nava Haghighi recently earned her PhD in Computer Science at Stanford, working at the intersection of human-computer interaction and critical technical design. Her research examines the ontological assumptions built into large language models and how design can surface and expand them.',
       linkedin: 'https://www.linkedin.com/in/nava-haghighi/',
     },
     {
