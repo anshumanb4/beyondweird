@@ -3,18 +3,27 @@ import DecoCircles from '../DecoCircles';
 
 function Home() {
   const formatCards = [
-    { title: "3 Panels + Keynote" },
-    { title: "Interdisciplinary Panels" },
-    { title: "Intimate Audience" }
+    {
+      title: "3 Panels + Keynote",
+      text: "Each session takes its own shape: an opening fireside chat, a structured Q&A, and an interdisciplinary panel, followed by a closing keynote."
+    },
+    {
+      title: "Breakout Discussions",
+      text: "Two of the three sessions open into small breakout groups, so the room does the thinking, not just the stage."
+    },
+    {
+      title: "Intimate Audience",
+      text: "Capped at ~100 participants to keep the conversation direct and personal."
+    }
   ];
 
   const scheduleItems = [
     { type: 'session', time: '10:30 – 10:40am PT', title: 'Opening' },
-    { type: 'session', time: '10:40 – 11:40am PT', title: 'Panel 1: What Counts as Knowing', desc: 'Featuring Brett Isaac (Navajo Power)' },
+    { type: 'session', time: '10:40 – 11:40am PT', title: 'Panel 1: What Counts as Knowing', desc: 'A fireside conversation between Brett Isaac (Navajo Power) and Anshuman Bapna (Terra.do), with breakout discussions' },
     { type: 'break', time: '11:40am – 12:00pm PT', title: 'Break' },
-    { type: 'session', time: '12:00 – 1:00pm PT', title: 'Panel 2: What AI Assumes and What It Cannot See', desc: 'Featuring Nava Haghighi and Deibi Sibrian, moderated by Amanda Joy Ravenhill' },
+    { type: 'session', time: '12:00 – 1:00pm PT', title: 'Panel 2: What AI Assumes and What It Cannot See', desc: 'A structured Q&A featuring Nava Haghighi and Deibi Sibrian, moderated by Amanda Joy Ravenhill' },
     { type: 'break', time: '1:00 – 1:10pm PT', title: 'Break' },
-    { type: 'session', time: '1:10 – 2:10pm PT', title: 'Panel 3: Sovereignty, Consent, and the Ethics of Representation', desc: 'Featuring Maui Hudson and Belén Páez' },
+    { type: 'session', time: '1:10 – 2:10pm PT', title: 'Panel 3: Sovereignty, Consent, and the Ethics of Representation', desc: 'Featuring Maui Hudson and Belén Páez, with breakout discussions' },
     { type: 'session', time: '2:10 – 2:25pm PT', title: 'Keynote: Toward Abundance', desc: 'Jason Edward Lewis (Concordia University)' },
     { type: 'session', time: '2:25 – 2:45pm PT', title: 'Closing Synthesis' },
   ];
@@ -27,6 +36,14 @@ function Home() {
       role: 'Panel 1: What Counts as Knowing',
       affiliation: 'Navajo Power',
       bio: 'Brett Isaac is a co-founder of Navajo Power, where he works to bring utility-scale clean energy to Native lands. His focus is on energy projects owned by and accountable to Indigenous communities, turning local natural resources into lasting economic self-determination and energy independence.',
+    },
+    {
+      initials: 'AB',
+      image: '/speakers/anshuman-bapna.jpg',
+      name: 'Anshuman Bapna',
+      role: 'Fireside, Panel 1: What Counts as Knowing',
+      affiliation: 'Terra.do',
+      bio: 'Anshuman Bapna is the founder of Terra.do, a climate learning and careers platform building a global community around the world’s top climate experts. He joins Brett Isaac for the opening fireside conversation.',
     },
     {
       initials: 'NH',
@@ -181,6 +198,7 @@ function Home() {
               <div className="format__card" key={index}>
                 <div className="format__card-number">{index + 1}</div>
                 <h3 className="format__card-title">{card.title}</h3>
+                <p className="format__card-text">{card.text}</p>
               </div>
             ))}
           </div>
