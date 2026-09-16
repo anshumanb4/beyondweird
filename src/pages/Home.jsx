@@ -19,7 +19,7 @@ function Home() {
 
   const scheduleItems = [
     { type: 'session', time: '10:30 – 10:40am PT', title: 'Opening' },
-    { type: 'session', time: '10:40 – 11:40am PT', title: 'Panel 1: What Counts as Knowing', desc: 'A fireside conversation between Brett Isaac (Navajo Power) and Anshuman Bapna (Terra.do), with breakout discussions' },
+    { type: 'session', time: '10:40 – 11:40am PT', title: 'Panel 1: What Counts as Knowing', desc: 'A fireside between Brett Isaac (Navajo Power) and Anshuman Bapna (Terra.do), featuring Mack Scott III (Brown University), with breakout discussions' },
     { type: 'break', time: '11:40am – 12:00pm PT', title: 'Break' },
     { type: 'session', time: '12:00 – 1:00pm PT', title: 'Panel 2: What AI Assumes and What It Cannot See', desc: 'A structured Q&A featuring Nava Haghighi and Deibi Sibrian, moderated by Amanda Joy Ravenhill' },
     { type: 'break', time: '1:00 – 1:10pm PT', title: 'Break' },
@@ -36,6 +36,14 @@ function Home() {
       role: 'Panel 1: What Counts as Knowing',
       affiliation: 'Navajo Power',
       bio: 'Brett Isaac is a co-founder of Navajo Power, where he works to bring utility-scale clean energy to Native lands. His focus is on energy projects owned by and accountable to Indigenous communities, turning local natural resources into lasting economic self-determination and energy independence.',
+    },
+    {
+      initials: 'MS',
+      image: '/speakers/mack-scott.jpg',
+      name: 'Mack H. Scott III',
+      role: 'Panel 1: What Counts as Knowing',
+      affiliation: 'Brown University',
+      bio: 'Mack H. Scott III is an enrolled member of the Narragansett Indian Tribe (Nation), historian, educator, and public scholar specializing in Native American and Indigenous histories, with a particular focus on the Dawnland/Narragansett country and the intersections of indigeneity, race, memory, and futurity. He currently serves as Director of Undergraduate Studies for the Native American and Indigenous Studies Initiative and as a Visiting Assistant Professor at the Ruth J. Simmons Center for the Study of Slavery and Justice at Brown University.',
     },
     {
       initials: 'AB',
