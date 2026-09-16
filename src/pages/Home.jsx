@@ -34,7 +34,7 @@ function Home() {
       name: 'Mack H. Scott III',
       role: 'Panel 1: What Counts as Knowing',
       affiliation: 'Brown University',
-      bio: 'Mack H. Scott III is an enrolled member of the Narragansett Indian Tribe (Nation), historian, educator, and public scholar specializing in Native American and Indigenous histories, with a particular focus on the Dawnland/Narragansett country and the intersections of indigeneity, race, memory, and futurity. He currently serves as Director of Undergraduate Studies for the Native American and Indigenous Studies Initiative and as a Visiting Assistant Professor at the Ruth J. Simmons Center for the Study of Slavery and Justice at Brown University.',
+      bio: 'Mack H. Scott III is an enrolled member of the Narragansett Indian Tribe (Nation) and a historian, educator, and public scholar of Native American and Indigenous histories, with a focus on the Dawnland/Narragansett country and the intersections of indigeneity, race, memory, and futurity. At Brown University he serves as Director of Undergraduate Studies for the Native American and Indigenous Studies Initiative and as a Visiting Assistant Professor at the Ruth J. Simmons Center for the Study of Slavery and Justice. He edited the Reimagining New England Histories anthology and is the author of the forthcoming The Great Tree and the Summer Sun: Indigeneity and Futurity in the Narragansett Country (University of Massachusetts Press).',
     },
     {
       initials: 'AB',
