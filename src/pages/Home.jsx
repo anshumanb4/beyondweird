@@ -5,7 +5,7 @@ function Home() {
   const formatCards = [
     {
       title: "3 Panels + Keynote",
-      text: "Each session takes its own shape: an opening fireside chat, a structured Q&A, and an interdisciplinary panel, followed by a closing keynote."
+      text: "Three panels of 60 to 75 minutes, including a structured Q&A, followed by a closing keynote."
     },
     {
       title: "Breakout Discussions",
@@ -19,7 +19,7 @@ function Home() {
 
   const scheduleItems = [
     { type: 'session', time: '10:30 – 10:40am PT', title: 'Opening' },
-    { type: 'session', time: '10:40 – 11:40am PT', title: 'Panel 1: What Counts as Knowing', desc: 'A fireside between Brett Isaac (Navajo Power) and Anshuman Bapna (Terra.do), featuring Mack Scott III (Brown University), with breakout discussions' },
+    { type: 'session', time: '10:40 – 11:40am PT', title: 'Panel 1: What Counts as Knowing', desc: 'Featuring Brett Isaac (Navajo Power), Mack Scott III (Brown University), and Anshuman Bapna (Terra.do), with breakout discussions' },
     { type: 'break', time: '11:40am – 12:00pm PT', title: 'Break' },
     { type: 'session', time: '12:00 – 1:00pm PT', title: 'Panel 2: What AI Assumes and What It Cannot See', desc: 'A structured Q&A featuring Nava Haghighi and Deibi Sibrian, moderated by Amanda Joy Ravenhill' },
     { type: 'break', time: '1:00 – 1:10pm PT', title: 'Break' },
@@ -49,9 +49,9 @@ function Home() {
       initials: 'AB',
       image: '/speakers/anshuman-bapna.jpg',
       name: 'Anshuman Bapna',
-      role: 'Fireside, Panel 1: What Counts as Knowing',
+      role: 'Panel 1: What Counts as Knowing',
       affiliation: 'Terra.do',
-      bio: 'Anshuman Bapna is the founder of Terra.do, a climate learning and careers platform building a global community around the world’s top climate experts. He joins Brett Isaac for the opening fireside conversation.',
+      bio: 'Anshuman Bapna is the founder of Terra.do, a climate learning and careers platform building a global community around the world’s top climate experts.',
     },
     {
       initials: 'NH',
