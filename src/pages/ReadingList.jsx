@@ -32,6 +32,10 @@ const sections = [
       {
         citation: "TallBear, K. (2013). Native American DNA: Tribal Belonging and the False Promise of Genetic Science. University of Minnesota Press.",
         annotation: "Examines how Western technoscience has been used to define, categorize, and sometimes erase Indigenous identity."
+      },
+      {
+        citation: 'Sibrian, D. (2025). “Thriving Through Adversity: Ancestral Wisdom and Environmental Justice.” Environmental Justice, 18(4), 278–290.',
+        annotation: "A four-poem collection by Sibrian, a Panel 2 speaker, that honors ancestral knowledge-sharing while critiquing Western academic structures, moving from El Salvador’s civil war to his “Cryptonocene” framework for the socio-environmental impacts of cryptocurrency."
       }
     ]
   },
@@ -54,6 +58,10 @@ const sections = [
       {
         citation: 'Haghighi, N., Yu, S., Landay, J.A., & Rosner, D. (2025). \u201COntologies in Design: How Imagining a Tree Reveals Possibilities and Assumptions in Large Language Models.\u201D Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems.',
         annotation: "Uses a deceptively simple prompt, asking an AI to imagine a tree, to surface the ontological assumptions built into large language models. It argues that what these systems allow us to think or talk about is a vital and under-recognized dimension of AI design, and proposes orientations of pluralism, groundedness, liveliness, and enactment."
+      },
+      {
+        citation: 'Haghighi, N. (2024). \u201COntological Breakdown: Toward a World of Many Worlds.\u201D Companion Publication of the 2024 ACM Designing Interactive Systems Conference (DIS \u201924), 70\u201373.',
+        annotation: "A short provocation arguing that design should make room for many worlds, or ontologies, rather than collapsing them into a single default."
       }
     ]
   },
