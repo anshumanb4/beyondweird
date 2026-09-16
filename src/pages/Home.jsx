@@ -14,7 +14,7 @@ function Home() {
     { type: 'break', time: '11:50am – 12:00pm PT', title: 'Break' },
     { type: 'session', time: '12:00 – 1:00pm PT', title: 'Panel 2: What AI Assumes and What It Cannot See', desc: 'A structured Q&A featuring Nava Haghighi and Deibi Sibrian, moderated by Amanda Joy Ravenhill' },
     { type: 'break', time: '1:00 – 1:10pm PT', title: 'Break' },
-    { type: 'session', time: '1:10 – 2:10pm PT', title: 'Panel 3: Sovereignty, Consent, and the Ethics of Representation', desc: 'Featuring Maui Hudson and Belén Páez, with breakout discussions' },
+    { type: 'session', time: '1:10 – 2:10pm PT', title: 'Panel 3: Sovereignty, Consent, and the Ethics of Representation', desc: 'Featuring Maui Hudson and Belén Páez, moderated by Rebecca Hui (Rurban), with breakout discussions' },
     { type: 'session', time: '2:10 – 2:30pm PT', title: 'Keynote: Toward Abundance', desc: 'Jason Edward Lewis (Concordia University)' },
     { type: 'session', time: '2:30 – 2:45pm PT', title: 'Closing Synthesis' },
   ];
@@ -87,6 +87,14 @@ function Home() {
       role: 'Panel 3: Sovereignty, Consent, and the Ethics of Representation',
       affiliation: 'Fundación Pachamama · Amazon Sacred Headwaters Initiative',
       bio: 'Belén Páez is president of Fundación Pachamama and general secretary of the Amazon Sacred Headwaters Initiative, with nearly 30 years of work protecting Indigenous territories and rights in the Ecuadorian Amazon.',
+    },
+    {
+      initials: 'RH',
+      image: '/speakers/rebecca-hui.jpg',
+      name: 'Rebecca Hui',
+      role: 'Moderator, Panel 3: Sovereignty, Consent, and the Ethics of Representation',
+      affiliation: 'Rurban (formerly Roots Studio)',
+      bio: 'Rebecca Hui is founder and CEO of Rurban (formerly Roots Studio), a platform that licenses Indigenous and rural artists’ work to global brands, including Patagonia, Chanel, Cartier, and A24, with royalty payments and provenance tracking built into each deal. She holds degrees from UC Berkeley and a master’s in city planning from MIT, and has been recognized as a Fulbright Scholar, an Echoing Green Fellow, and a Cartier Women’s Initiative Laureate.',
     },
     {
       initials: 'JL',
