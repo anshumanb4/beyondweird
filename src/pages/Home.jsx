@@ -10,8 +10,8 @@ function Home() {
 
   const scheduleItems = [
     { type: 'session', time: '10:30 – 10:40am PT', title: 'Opening' },
-    { type: 'session', time: '10:40 – 11:40am PT', title: 'Panel 1: What Counts as Knowing', desc: 'Featuring Brett Isaac (Navajo Power) and Mack Scott III (Brown University), moderated by Anshuman Bapna (Terra.do), with breakout discussions' },
-    { type: 'break', time: '11:40am – 12:00pm PT', title: 'Break' },
+    { type: 'session', time: '10:40 – 11:50am PT', title: 'Panel 1: What Counts as Knowing', desc: 'Featuring Brett Isaac (Navajo Power) and Mack Scott III (Brown University), moderated by Anshuman Bapna (Terra.do), with breakout discussions' },
+    { type: 'break', time: '11:50am – 12:00pm PT', title: 'Break' },
     { type: 'session', time: '12:00 – 1:00pm PT', title: 'Panel 2: What AI Assumes and What It Cannot See', desc: 'A structured Q&A featuring Nava Haghighi and Deibi Sibrian, moderated by Amanda Joy Ravenhill' },
     { type: 'break', time: '1:00 – 1:10pm PT', title: 'Break' },
     { type: 'session', time: '1:10 – 2:10pm PT', title: 'Panel 3: Sovereignty, Consent, and the Ethics of Representation', desc: 'Featuring Maui Hudson and Belén Páez, with breakout discussions' },
