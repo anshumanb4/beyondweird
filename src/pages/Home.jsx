@@ -15,8 +15,8 @@ function Home() {
     { type: 'session', time: '12:00 – 1:00pm PT', title: 'Panel 2: What AI Assumes and What It Cannot See', desc: 'A structured Q&A featuring Nava Haghighi and Deibi Sibrian, moderated by Amanda Joy Ravenhill' },
     { type: 'break', time: '1:00 – 1:10pm PT', title: 'Break' },
     { type: 'session', time: '1:10 – 2:10pm PT', title: 'Panel 3: Sovereignty, Consent, and the Ethics of Representation', desc: 'Featuring Maui Hudson and Belén Páez, with breakout discussions' },
-    { type: 'session', time: '2:10 – 2:25pm PT', title: 'Keynote: Toward Abundance', desc: 'Jason Edward Lewis (Concordia University)' },
-    { type: 'session', time: '2:25 – 2:45pm PT', title: 'Closing Synthesis' },
+    { type: 'session', time: '2:10 – 2:30pm PT', title: 'Keynote: Toward Abundance', desc: 'Jason Edward Lewis (Concordia University)' },
+    { type: 'session', time: '2:30 – 2:45pm PT', title: 'Closing Synthesis' },
   ];
 
   const speakers = [
