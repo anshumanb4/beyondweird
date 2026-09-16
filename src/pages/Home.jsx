@@ -42,7 +42,7 @@ function Home() {
       name: 'Anshuman Bapna',
       role: 'Moderator, Panel 1: What Counts as Knowing',
       affiliation: 'Terra.do',
-      bio: 'Anshuman Bapna is the founder of Terra.do, a climate learning and careers platform building a global community around the world’s top climate experts.',
+      bio: 'Anshuman is the founder of Terra.do with a mission to move 100M people into climate work this decade. He co-founded and sold his first startup while in undergrad at IIT Bombay, seeing it through the first boom & bust on the internet. After his MBA at Stanford, he spent some time selling solar lights in Vietnam and started a non-profit that helped Indian Members of Parliament develop their constituencies. After a stint at Deloitte, Google, Makemytrip and starting a few more companies in between, a classic midlife crisis sent him in search for what was truly worth working on.',
     },
     {
       initials: 'NH',
